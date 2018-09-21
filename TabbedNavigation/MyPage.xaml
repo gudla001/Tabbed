@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TabbedNavigation.MyPage"
+    Appearing="OnAppearing"
+    Disappearing="OnDisappearing">
+    <ContentPage.Content>
+        
+        <StackLayout
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
+            <Label RotationX="30" Text="This is tab 1"/>        
+            <Image Source="Bulldog.png"/>
+            </StackLayout>
+            
+    </ContentPage.Content>
+</ContentPage>
